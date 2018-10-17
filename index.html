@@ -9,18 +9,22 @@
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    
-    Hi there!
-    
-    
-    
-    
-    
-    
-    
     <!-- jQuery Linked Below-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Your Javascript Linked Below-->
-    <script src="js/index.js" type="module" defer></script> 
+    <script src="js/index.js" type="module" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCgzctfKLYbfMD1IL08oTm8RAWhCNVoLIQ",
+        authDomain: "instamusic-cd559.firebaseapp.com",
+        databaseURL: "https://instamusic-cd559.firebaseio.com",
+        projectId: "instamusic-cd559",
+        storageBucket: "instamusic-cd559.appspot.com",
+        messagingSenderId: "270245786565"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>
