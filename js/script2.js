@@ -1,7 +1,7 @@
 const database = firebase.database();
 const databaseRef = database.ref("/");
 
-export function callWithSnapshot(callback) {
+function callWithSnapshot(callback) {
   databaseRef.once('value').then(function(snapshot) { 
     // Use .val() to get the data from the snapshot
     var databaseValues = snapshot.val();
@@ -12,3 +12,4 @@ export function callWithSnapshot(callback) {
 export function renderUser(data) { // this function just appends the data from databaseValues to the view
   $("body").append(data); // append data to the view
 }; 
+
