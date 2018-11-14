@@ -1,5 +1,5 @@
 // Write your JS here
-import {renderUser, userInfo} from './script2.js';
+import {renderUser} from './script2.js';
 
 const database = firebase.database();
 const databaseRef = database.ref("/");

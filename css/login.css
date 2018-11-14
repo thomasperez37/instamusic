@@ -138,7 +138,7 @@ body:before {
     height: 100%;
 }
 
-#video {
+/* #video {
     z-index: -99;
     position: fixed;
     top: 50%;
@@ -149,4 +149,9 @@ body:before {
     height: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+} */
+
+body { 
+    background-image: url("../photos/login-background.jpg");
+    background-size: cover;
 }
