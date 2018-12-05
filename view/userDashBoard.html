@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>InstaMusic - Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script async src="../js/userDashboard.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Gloria+Hallelujah|Lobster|Pacifico|Permanent+Marker"
+    rel="stylesheet">
+    <link href="../css/userDashboard.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    var config = {
+        apiKey: "AIzaSyCgzctfKLYbfMD1IL08oTm8RAWhCNVoLIQ",
+        authDomain: "instamusic-cd559.firebaseapp.com",
+        databaseURL: "https://instamusic-cd559.firebaseio.com",
+        projectId: "instamusic-cd559",
+        storageBucket: "instamusic-cd559.appspot.com",
+        messagingSenderId: "270245786565"
+    };
+    firebase.initializeApp(config);
+</script>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="login.html">GihpySharer</a>
+                <img id="headphoneImg" src="http://snapsvg.io/assets/images/logo.svg" />
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    </div>
+</div> -->
+                <div class="col-sm-8 col-md-8 pull-right navBarHomeControl"> 
+                    <!-- this is the search input field box and the view playlist btn -->
+                    <div class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input class="form-control" id="srch-term" name="srch-term" placeholder="Search" type="text">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" id="submit" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-default" id="randomizer" type="submit"><a href="playlistViewer.html">View Giphy List</a></button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+
+    <section>
+        <div class="container">
+            <div class="row giphyTitle">
+                <h3 class="userInstructions text-center">Search for a Song above<br>
+                    Your results will display here</h3>
+            </div>
+            <div class="row gallery">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- Footer -->
+        <footer class="container-fluid" id="contact">
+            <div class="row">
+                <p class="col-sm-4">&copy; 2018 GihpySharer</p>
+                <ul class="col-sm-8">
+                    <li class="col-sm-1">
+                        <a href="https://twitter.com/louisgabrie" target="_blank"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></a>
+                    </li>
+                    <li class="col-sm-1">
+                        <a href="https://instagram.com/a_visual_bliss" target="_blank"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>

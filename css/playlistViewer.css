@@ -1,0 +1,169 @@
+.navbar-brand {
+    margin-left: -5px;
+    font-family: 'Permanent Marker', cursive;
+    color: #ECE5F0;
+}
+
+#headphoneImg {
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: -14px;
+}
+
+.play_icon {
+    width: 25px;
+    height: 25px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.svg-inline--fa {
+    vertical-align: -.210em;
+}
+
+.svg-inline--fa.fa-w-6 {
+    width: 1em;
+}
+
+.shuffle_button {
+    margin-top: 5px;
+    /* width: 125px; */
+    margin-left: 400px; 
+    /* if you want to use this button for shuffling the playlist then you need to keep the margin left at 500 and bring back the width */
+}
+
+.dropdown-menu {
+    background: #202328;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+header {
+    background: #202328;
+    padding: 20px;
+}
+
+#picture_div {
+    background-image: url('http://www.okayplayer.com/wp-content/uploads/2014/01/sam-smith-in-the-lonely-hour-track-list-album-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: 600px 780px;
+    background-color: black;
+    float: left;
+    height: 717px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: -10px;
+    /*Caution: Blurred background_image is under construction*/
+    /*-webkit-filter: blur(5px);*/
+    /*-moz-filter: blur(5px);*/
+    /*-o-filter: blur(5px);*/
+    /*-ms-filter: blur(5px);*/
+    /*filter: blur(5px);*/
+}
+
+#picture_divText {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.song_pic {
+    width: 300px;
+    height: 300px;
+    margin-top: 160px;
+    margin-left: 130px;
+}
+
+#songs_div {
+    background: #121315;
+    width: 850px;
+    height: 722px;
+    margin-left: 610px;
+    margin-top: -720px;
+    float: right;
+}
+
+#playlistName {
+    margin-top: 10px;
+    color: #4F5052;
+    font-size: 18px;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+#numOfSongs { 
+    margin-top: 10px;
+    color: #4F5052;
+    font-size: 18px;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 800px;
+    border: 1px solid #4F5052;
+}
+
+#songs_div h5 {
+    color: white;
+    margin-left: 12px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+#songs_div p {
+    color: #4F5052;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.modal-content {
+    background: #202328;
+    color: white;
+}
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+    margin-top: 717px;
+    background-color: black;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
+
+footer .col-sm-4 {
+    color: #FFF;
+}
+
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+a { 
+    text-decoration: none; 
+    color: white;
+}
+
+a:hover { 
+    color: white;
+    text-decoration: none;
+}

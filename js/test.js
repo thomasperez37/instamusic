@@ -18,3 +18,6 @@ databaseRef.on("value").then((snapshot) => {
     const databaseValues = snapshot.val();
     
 });
+
+
+https://accounts.spotify.com/authorize?client_id=d9ac46f9a2c54349986bd27a13bdcdf0&response_type=code&redirect_uri=https%3A%2F%2Fexample.com%2Fcallback&scope=user-read-private%20user-read-email&state=34fFs29kd09
