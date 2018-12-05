@@ -2,7 +2,7 @@
 .form {
     position: relative;
     z-index: 1;
-    background: #FFFFFF;
+    background: #ECE5F0;
     max-width: 300px;
     margin: 0 auto 100px;
     padding: 30px;
@@ -13,10 +13,11 @@
     text-align: center;
 }
 
+/* Headphone image */
 .form .thumbnail {
-    background: #EF3B3A;
-    width: 150px;
-    height: 150px;
+    /* background: #A50104; */
+    width: 200px;
+    height: 200px;
     margin: 0 auto 30px;
     padding: 50px 30px;
     border-top-left-radius: 100%;
@@ -48,7 +49,7 @@
 
 .form button {
     outline: 0;
-    background: #EF3B3A;
+    background: #A50104;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -69,7 +70,7 @@
 }
 
 .form .message a {
-    color: #EF3B3A;
+    color: #A50104;
     text-decoration: none;
 }
 
@@ -91,6 +92,7 @@
     clear: both;
 }
 
+/* Header Text "Name of Site" */
 .container .info {
     margin: 50px auto;
     text-align: center;
@@ -99,29 +101,34 @@
 .container .info h1 {
     margin: 0 0 15px;
     padding: 0;
+    font-family: 'Permanent Marker', cursive;
     font-size: 36px;
     font-weight: 300;
-    color: #1a1a1a;
+    color: #ECE5F0; 
 }
 
+/* Subtext left of the heart */
 .container .info span {
-    color: #4d4d4d;
+    color: #e7e5ea;
     font-size: 12px;
 }
 
+/* Subtext next right of the heart */
 .container .info span a {
-    color: #000000;
+    color: #ECE5F0;
     text-decoration: none;
 }
 
+/* Color of the heart */
 .container .info span .fa {
-    color: #EF3B3A;
+    color: #A50104;
 }
+/* -------------------------- */
 
 /* END Form */
 /* Demo Purposes */
 body {
-    background: #ccc;
+    /* background: #ccc; */
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -133,7 +140,7 @@ body:before {
     top: 0;
     left: 0;
     display: block;
-    background: rgba(255, 255, 255, 0.8);
+    /* background: rgba(255, 255, 255, 0.8); */
     width: 100%;
     height: 100%;
 }
@@ -154,4 +161,9 @@ body:before {
 body { 
     background-image: url("../photos/login-background.jpg");
     background-size: cover;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
 }
