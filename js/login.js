@@ -4,7 +4,6 @@ $('.message a').click(function () {
         opacity: "toggle"
     }, "slow");
 });
-<<<<<<< HEAD
 
 // $(".show_password").click(() => { 
 //     var x = $(".passwordInput");
@@ -14,7 +13,6 @@ $('.message a').click(function () {
 //         x.type = "password";
 //     }
 // });
-=======
 $('#sign-up').click(function(){
 
 });
@@ -26,4 +24,3 @@ function signUp(){
     //var newUser = {}
     //usersRef.update()
 }
->>>>>>> 1c28cfe654fc1cf84f2010900e6dbad1924ed2f3
